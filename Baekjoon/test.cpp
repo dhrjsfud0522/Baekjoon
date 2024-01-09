@@ -2,6 +2,9 @@
 #include <stdlib.h>
 
 int main(){
-    int n[2][2] = {{1, 2}, {3, 4}};
-    printf("%d", n[0][1]);
+    int c = 0;
+    for(int i = 1; i <= 10000000; i++){
+        c += i;
+    }
+    printf("%lld %lld", c, 10000000 * 10000000);
 }
