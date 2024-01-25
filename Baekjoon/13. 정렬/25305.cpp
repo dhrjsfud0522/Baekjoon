@@ -14,4 +14,5 @@ int main() {
     }
     sort(l, l + n);
     printf("%d", l[n - k]);
+    return 0;
 }

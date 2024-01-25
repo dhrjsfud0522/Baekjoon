@@ -13,4 +13,5 @@ int main() {
     }
     sort(l, l + 5);
     printf("%d\n%d", s / 5, l[2]);
+    return 0;
 }

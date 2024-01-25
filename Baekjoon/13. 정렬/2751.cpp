@@ -15,4 +15,5 @@ int main() {
     for(int t = 0; t < n; t++){
         printf("%d\n", l[t]);
     }
+    return 0;
 }
